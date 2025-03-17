@@ -1,0 +1,49 @@
+<!-- Register Form -->
+<form [formGroup]="registerForm" (ngSubmit)="onRegister()">
+    <label for="firstName">First Name:</label>
+    <input 
+      type="text" 
+      id="firstName"
+      formControlName="firstName"
+      class="form-control"
+      placeholder="Enter your first name"
+      title="Enter your first name"
+      required
+    />
+  
+    <label for="lastName">Last Name:</label>
+    <input 
+      type="text" 
+      id="lastName"
+      formControlName="lastName"
+      class="form-control"
+      placeholder="Enter your last name"
+      title="Enter your last name"
+      required
+    />
+  
+    <label for="email">Email:</label>
+    <input 
+      type="email" 
+      id="email"
+      formControlName="email"
+      class="form-control"
+      placeholder="Enter your email"
+      title="Enter your email"
+      required
+    />
+  
+    <label for="password">Password:</label>
+    <input 
+      type="password" 
+      id="password"
+      formControlName="password"
+      class="form-control"
+      placeholder="Enter your password"
+      title="Enter your password"
+      required
+    />
+  
+    <button type="submit" [disabled]="registerForm.invalid">Register</button>
+  </form>
+  

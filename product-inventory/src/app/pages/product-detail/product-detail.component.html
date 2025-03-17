@@ -1,0 +1,23 @@
+<div class="container mt-4">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Product Inventory Management System</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" routerLink="/products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<h2>Product Details</h2>
+<div *ngIf="product">
+  <p><strong>Name:</strong> {{ product.name }}</p>
+  <p><strong>Description:</strong> {{ product.description }}</p>
+  <p><strong>Manufacturer:</strong> {{ product.manufacturer }}</p>
+  <p><strong>Price:</strong> {{ product.price }}</p>
+  <p><strong>Quantity:</strong> {{ product.quantity }}</p>
+</div>
+<footer class="text-center mt-5 py-3 bg-light">
+  © 2025 Products Inventory
+</footer>
+<div *ngIf="!product">Loading...</div>

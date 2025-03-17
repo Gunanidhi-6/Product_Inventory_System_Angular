@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@example.com",
+      "password": "password123",
+      "firstName": "John",
+      "lastName": "Doe",
+      "location": "New York",
+      "mobile": "1234567890"
+    },
+    {
+      "id": "0812",
+      "firstName": "Ravi",
+      "lastName": "S",
+      "email": "ravi@gmail.com",
+      "password": "ravi123",
+      "location": "Bengaluru",
+      "mobile": "7411011525"
+    },
+    {
+      "id": "1db1",
+      "firstName": "sss",
+      "lastName": "s",
+      "email": "sss@gmail.com",
+      "password": "pass",
+      "location": "Mumbai",
+      "mobile": "1234567891"
+    },
+    {
+      "id": "3431",
+      "firstName": "aaa",
+      "lastName": "bbb",
+      "email": "aaa@gmail.com",
+      "password": "sss",
+      "location": "weerre",
+      "mobile": "64563546"
+    }
+  ],
+  "products": [
+    {
+      "name": "Laptop",
+      "manufacturer": "HP",
+      "price": 4000,
+      "quantity": 18,
+      "id": "1"
+    },
+    {
+      "id": "c012",
+      "name": "Tablet M10",
+      "manufacturer": "Lenovo",
+      "price": 1000,
+      "quantity": 10
+    },
+    {
+      "id": "2384",
+      "name": "SmartPhone",
+      "manufacturer": "OnePlus",
+      "price": 3000,
+      "quantity": 5
+    },
+    {
+      "id": "a611",
+      "name": "SemiConductor Chip",
+      "manufacturer": "Nvidia",
+      "price": 10000,
+      "quantity": 5
+    },
+    {
+      "id": "ff8d",
+      "name": "CPU",
+      "manufacturer": "CPU Ltd",
+      "price": 4000,
+      "quantity": 10
+    },
+    {
+      "id": "f7aa",
+      "name": "Monitor",
+      "manufacturer": "Intel",
+      "price": 5000,
+      "quantity": 10
+    }
+  ]
+}
